@@ -1,6 +1,10 @@
 class Todo {
-  bool isDone = false;
+  String datetime;
   String title;
+  String memo;
+  int color;
+  bool isDone = false;
+  
 
-  Todo(this.title, {this.isDone = false});
+  Todo(this.title, this.memo, this.datetime, this.color, {this.isDone = false});
 }
